@@ -63,7 +63,7 @@ h3.notion-heading
   
 
 /* Divider visibility */ 
-  .notion-divider 
+  article>.notion-divider 
   {
     
     margin: 0px 0px!important; 
