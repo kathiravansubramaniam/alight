@@ -1,170 +1,244 @@
- 
 
-  
- /*Full width buttons */
-.notion-callout 
+
+
+/*Full width buttons----------------*/
+.notion-callout
 {
- display: flex;
- justify-content: center;
- width: 100%!important;
- padding:0px 0px !important;
- border-radius :100px!important;
-  }
- 
- 
- /*Full width images - Callout Brown*/
-
- article>.notion-callout.color-brown-light
-{
-
-
-  margin: 0px 0px!important;
-  border-radius :0px!important;
-  width:100vw!important;
-  margin-left: calc(50% - 50vw)!important;
-  margin-right: calc(50% - 50vw)!important;
- 
+  display: flex;
+  justify-content: center;
+  width: 100%!important;
+  padding:0px 0px !important;
+  border-radius :100px!important;
 }
 
+
+
+
+
+/*Callout Styling-----------------*/
+
+/*Brown Text*/
+/*Full width images*/
+article>.notion-callout.color-brown-light
+{
+ margin: 0px 0px!important;
+ border-radius :0px!important;
+ width:100vw!important;
+ margin-left: calc(50% - 50vw)!important;
+ margin-right: calc(50% - 50vw)!important;
+}
 .color-brown-light .notion-image.page-width
 {
-
-   border-radius :0px!important;
-   margin: 0px 0px!important;
-
+  border-radius :0px!important;
+  margin: 0px 0px!important;
 }
 
 
 
-
-/* Heading3 font size changes */ 
-h3.notion-heading
+/*Yellow BG*/
+/*Gray Page Section*/
+article>.notion-callout.bg-yellow-light
 {
-    font-size: 22pt!important;
-    padding-top: 22px !important;
-  }
-  
-  
-/* Body text  font size changes */ 
-  .notion-text__content
-  {
-    font-size: 12pt!important;
-    line-height: 0px!important;
-    padding-top: 14px !important;
-    font-weight: responsive;
-  }
-  
-  
-/* Hide the selected toggle block */ 
-  #block-719a081ca0b645c5b0a7dbf064c929fa .notion-toggle__summary
-  {
-   display: none !important;
-  }
-  
-
-/* Divider visibility */ 
-  article>.notion-divider 
-  {
-    
-    margin: 0px 0px!important; 
-    padding: 0px;
-    justify-content: center;
-    width:100%;
-    border-bottom: .5px solid #DDD6FE !important;
-}  
-
-
-/*Yellow border callouts as page section*/
- article>.notion-callout.bg-yellow-light
-{
-    border-radius: 0px!important;
-    border:0px!important;
-    background-color: #F9FAFB!important;
-    width:100vw!important;
-    margin-left: calc(50% - 50vw)!important;
-    margin-right: calc(50% - 50vw)!important;
-    padding-top: 20px !important;
-    padding-right: 0px !important;
-    padding-bottom: 20px !important;
-    padding-left: 0px !important;
+   border-radius: 0px!important;
+   border:0px!important;
+   background-color: #F9FAFB!important;
+   width:100vw!important;
+   margin-left: calc(50% - 50vw)!important;
+   margin-right: calc(50% - 50vw)!important;
+   padding-top: 20px !important;
+   padding-right: 0px !important;
+   padding-bottom: 20px !important;
+   padding-left: 0px !important;
 }
 
 
 
-
-
-
-/* Swtching Toggle visibility */
-
-  .notion-toggle__summary
-  {
-    display: flex !important;
-    flex-direction: row;
-    padding: 20px 25px!important;
-   
-    
-    background-color: #ffffff!important;
-   
-  }
-
-
-/*Brown border callouts as toggle*/
-.bg-brown-light.notion-callout
+/*Brown BG*/
+/*Toggle*/
+.bg-brown-light
 {
-
-    border-radius: 0px!important;
-    background-color: #ffffff!important;
-    width: 100vw!important;
-    margin-left: calc(50% - 50vw)!important;
-    margin-right: calc(50% - 50vw)!important;
- 
+display: block !important;
 }
-    /*Brown border callout - Toggle open edits*/
-    .bg-brown.notion-toggle.open
-    {
-       background-color: #ffffff!important;
-       padding-right:  25px!important;
-       padding-left:  0px!important;
-    }
-    
-    
-/*Yellow Color callouts - Centre aligned icon grid*/
-.notion-callout.color-yellow-light .notion-callout__content 
-{
-    border-radius :0px!important;
-    display: flex!important;
-    flex direction: row;
-    padding-top: 0px!important;
-    padding-right: 0px!important;
-    padding-bottom: 0px!important;
-    padding-left: 0px!important;
-    justify-content: center;
-}
-
-.notion-callout.color-yellow-light 
-{
-    border-radius :0px!important;
-    border:2px solid #ff0000;
-    margin-bottom:20px;
-    width: 100vw!important;
-    margin-left: calc(50% - 50vw)!important;
-    margin-right: calc(50% - 50vw)!important;
-    padding:0px 12px!important;
-    text-align: center;
-    
-}
-
-
-/*footer*/
-
-
-
-/*Orange Color callouts - Centre aligned Text grid*/
-.notion-callout.color-orange-light .notion-callout__content 
+/* Toggle summary - link spacing */
+ .bg-brown-light .notion-text .notion-link
 {
   display: block!important;
-  text-align: center!important;
-  padding:0px 30px !important;
- }
+  margin-bottom: 0px!important;
+  text-align: left!important;
+}
+/* Toggle open - padding corrections */
+.bg-brown-light .notion-toggle__summary
+{
+  display: flex !important;
+  flex-direction: row!important;
+  padding: 20px 25px!important;
+  background-color: #ffffff!important;
+
+}
+/*Brown bg callouts as toggle - padding corrections*/
+.bg-brown-light.notion-callout
+{
+  border-radius: 0px!important;
+  background-color: #ffffff!important;
+  width: 100vw!important;
+  margin-left: calc(50% - 50vw)!important;
+  margin-right: calc(50% - 50vw)!important;
+}
+/* Toggle open - bg white and padding */
+.bg-brown.notion-toggle.open
+{
+ background-color: #ffffff!important;
+ padding-right:  25px!important;
+ padding-left:  0px!important;
+}
 
 
+
+/*Orange BG*/
+/*Centre aligned Text*/
+article>.notion-callout.color-orange-light
+{
+  border-radius :0px!important;
+  width: 100vw!important;
+  margin-left: calc(50% - 50vw)!important;
+  margin-right: calc(50% - 50vw)!important;
+  margin-bottom:px;
+}
+.notion-callout.color-orange-light .notion-callout__content
+{
+ display: block!important;
+ text-align: center!important;
+ padding:0px 30px !important;
+
+}
+/*Image-centred*/
+.color-orange-light .normal.notion-image
+{
+ max-width: 100%!important;
+ margin-bottom:-0px!important;
+ margin-top:10px!important;
+}
+
+
+
+
+
+/*Yellow BG*/
+/*Centre aligned icon grid*/
+.notion-callout.color-yellow-light .notion-callout__content
+{
+   border-radius :0px!important;
+   display: flex!important;
+   flex direction: row;
+   padding-top: 0px!important;
+   padding-right: 0px!important;
+   padding-bottom: 0px!important;
+   padding-left: 0px!important;
+   justify-content: center;
+}
+
+.notion-callout.color-yellow-light
+{
+   border-radius :0px!important;
+   border:2px solid #ff0000;
+   margin-bottom:20px;
+   width: 100vw!important;
+   margin-left: calc(50% - 50vw)!important;
+   margin-right: calc(50% - 50vw)!important;
+   padding:0px 12px!important;
+   text-align: center;
+
+}
+.notion-callout.color-yellow-light a.notion-link
+{
+
+    padding: 20px 12px !important;
+
+}
+
+
+/*Gray cards*/
+/*Centre aligned gray cards + icons*/
+
+/*Icon-Overlay*/
+.bg-gray-light .normal.notion-image
+{
+  max-width: 100%;
+  margin-bottom:0px;
+  margin-top:10px;
+}
+/*Content alignment*/
+.notion-callout.bg-gray-light p.notion-callout__content
+{
+  display: block!important;
+  text-align: center;
+}
+/*Card setup*/
+article>.notion-callout.bg-gray-light
+{
+  border-radius:20px!important;
+  background-color: #F9F9FA!important;
+  display: block!important;
+  width: 90vw!important;
+  max-width:90vw !important;
+  margin: 32px 0px!important;
+  padding-top: 15px !important;
+  padding-right: 0px !important;
+  padding-bottom: 5px !important;
+  padding-left: 0px !important;
+}
+/*Heading3-sizes*/
+.notion-callout.bg-gray-light .notion-heading
+{
+  font-size: 14pt!important;
+  padding-top: 22px !important;
+}
+
+
+
+
+
+/*Type Setting-----------------*/
+/* Heading3*/
+/* Heading3 font size changes */
+h3.notion-heading
+{
+   font-size: 18pt!important;
+   padding-top: 12px !important;
+}
+
+/* Heading2 font size changes */
+ h2.notion-heading
+{
+   font-size: 22pt!important;
+   font-family: "Gilroy-Bold"!important;
+   font-weight: 600!important;
+   font-size: 24pt!important;
+   font-style: normal!important;
+   text-transform: none;
+   text-align: inherit!important;
+   padding-top:0px!important;
+   margin-top:2px!important;
+   margin-bottom:4px!important;
+}
+/* Body text font size changes */
+ .notion-text__content
+{
+   font-size: 13pt!important;
+   line-height: 0px!important;
+   padding-top: 12px !important;
+
+}
+
+
+
+
+/* Divider visibility------------*/
+ .notion-divider
+{
+  margin: 0px 0px!important;
+  padding: 0px;
+  justify-content: center;
+  width:100%;
+  border-bottom: .5px solid #DDD6FE !important;
+}
